@@ -20,7 +20,7 @@ import { AppService } from './app.service';
 import { BankAccountModule } from './payments/payment.module';
 import { ConfigModule } from '@nestjs/config';
 import { CloudinaryService } from './service/cloudinary.service';
-import { WhatsAppModule } from 'whatsapp/whatsapp.module';
+import { WhatsAppModule } from './whatsapp/whatsapp.module';
 
 @Module({
   imports: [
