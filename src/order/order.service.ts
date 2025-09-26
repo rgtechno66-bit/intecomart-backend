@@ -25,8 +25,9 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { CloudinaryService } from './../service/cloudinary.service';
 import { Cron } from '@nestjs/schedule';
-import { TallyPathEntity, TallySettings } from 'settings/setting.entity';
+// import { TallyPathEntity, TallySettings } from 'settings/setting.entity';
 import { OrderStatus } from './order.enums';
+import { TallySettings } from './../settings/setting.entity';
 
 @Injectable()
 export class OrderService {

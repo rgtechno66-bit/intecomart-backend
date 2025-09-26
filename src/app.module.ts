@@ -29,13 +29,13 @@ import { WhatsAppModule } from 'whatsapp/whatsapp.module';
       type: 'postgres',
       url: process.env.DATABASE_URL,
       autoLoadEntities: true,
-      synchronize: true,
-      ssl: true,
-      extra: {
-        ssl: {
-          rejectUnauthorized: false,
-        },
-      },
+      // synchronize: true,
+      // ssl: true,
+      // extra: {
+      //   ssl: {
+      //     rejectUnauthorized: false,
+      //   },
+      // },
     }),
     
   
